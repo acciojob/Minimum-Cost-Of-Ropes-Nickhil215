@@ -19,7 +19,7 @@ function calculateMinCost() {
     minHeap.insert(sum);
   }
 
-  document.getElementById("result").innerHTML = "Minimum cost to connect ropes: " + result;
+  document.getElementById("result").innerHTML = result;
 }
 
 class MinHeap {
